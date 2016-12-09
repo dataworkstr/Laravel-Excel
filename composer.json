@@ -1,6 +1,6 @@
 {
-  "name": "maatwebsite/excel",
-  "description": "An eloquent way of importing and exporting Excel and CSV in Laravel 4 with the power of PHPExcel",
+  "name": "dataworkstr/excel",
+  "description": "An eloquent way of importing and exporting Excel and CSV in Laravel 5 with the power of PHPExcel",
   "license": "LGPL",
   "keywords": [
     "laravel",
@@ -11,12 +11,20 @@
     "import",
     "batch"
   ],
+
+ "support": {
+        "issues": "https://github.com/dataworkstr/Laravel-Excel/issues",
+        "source": "https://github.com/dataworkstr/Laravel-Excel"
+    },
+
   "authors": [
-    {
-      "name": "Maatwebsite.nl",
-      "email": "patrick@maatwebsite.nl"
-    }
-  ],
+        {
+            "name": "Oner Ciller",
+            "email": "admin@yellow.com.tr",
+            "homepage": "https://yellowpages.com.tr",
+            "role": "Developer"
+        }
+    ],
   "require": {
     "php": ">=5.5",
     "phpoffice/phpexcel": "1.8.*",
