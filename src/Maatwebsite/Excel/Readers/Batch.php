@@ -134,7 +134,7 @@ class Batch {
             $folder = base_path($folder);
 
         // Find path names matching our pattern of excel extensions
-        $glob = glob($folder . '/*.{' . implode(',', $this->allowedFileExtensions) . '}', GLOB_BRACE);
+        $glob = glob($folder . '/*.{' . implode(',', $this->allowedFileExtensions) . '}', (defined('GLOB_BRACE') ? GLOB_BRACE : 0) | GLOB_ONLYDIR);
 
         // If no matches, return empty array
         if ($glob === false) return array();
