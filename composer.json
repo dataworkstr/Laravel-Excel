@@ -1,5 +1,5 @@
 {
-  "name": "maatwebsite/excel",
+  "name": "dataworkstr/excel",
   "description": "An eloquent way of importing and exporting Excel and CSV in Laravel 5 with the power of PHPExcel",
   "license": "LGPL",
   "keywords": [
@@ -18,7 +18,6 @@
     },
 
   "authors": [
-        // re-add original copyright owner
         {
             "name": "Oner Ciller",
             "email": "admin@yellow.com.tr",
